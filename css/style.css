@@ -69,6 +69,10 @@
 }
 
 /* Navigation Dropdowns */
+
+.mainbody {
+    margin-bottom: 870px;
+}
 .nav-dropdowns {
     position: relative;
     height: 50vh;
@@ -80,9 +84,137 @@
     right:0;
     bottom: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #7B9B4A;
 }
 
 .logo img {
-    max-height: 60px;
+    max-height: 100px;
 }
+
+.navimage img {
+    max-height: 100px;
+    min-width: 700px;
+}
+
+.profile img {
+    height: 25px;
+}
+
+.navbar {
+    background-color: #7B9B4A;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.navbar-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.navbar a {
+    color:#383838;
+    font-size: 17px;
+    padding: 0px;
+}
+
+.navbar a:hover {
+    background-color: #7B9B4A;
+    color: #fff;
+}
+
+/* Main Body CSS */
+
+.mainimages {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.map img{
+    height: 750px;
+    width: fit-content;
+}
+
+.passport img {
+    height: 750px;
+    width: fit-content;
+}
+
+.myride-heading {
+    margin-top: 100px;
+    font-size: 48px;
+    color: #333;
+  }
+  
+  
+  .myride-subheading {
+    font-size: 24px;
+    color: #666;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+  
+  
+  .myride {
+    background-color: #e5ebdb;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  
+  #container {
+    background-color: #e5ebdb;
+  }
+  
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    grid-column-gap: 1px;
+    margin-left: 300px;
+    margin-right: 200px;
+  }
+  
+  
+  .grid-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 200px;
+    height: 120px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .grid-item img {
+    height: 30px;
+  }
+  
+  
+  .grid-item h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #888888;
+  
+  
+  }
