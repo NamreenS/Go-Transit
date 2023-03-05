@@ -9,12 +9,14 @@
     background-color: #434041;
     display: flex;
     justify-content: space-between;
+    height: 140px;
 }
 .nav2 {
     display:flex;
-    justify-content: end;
+    justify-content:end;
     align-items: center;
     background-color: #7B9B4A;
+    height: 40px;
 }
 
 .nav2 li {
@@ -70,9 +72,6 @@
 
 /* Navigation Dropdowns */
 
-.mainbody {
-    margin-bottom: 870px;
-}
 .nav-dropdowns {
     position: relative;
     height: 50vh;
@@ -88,17 +87,24 @@
 }
 
 .logo img {
-    max-height: 100px;
+    max-height: 130px;
+    margin-top: 10px;
 }
 
 .navimage img {
-    max-height: 100px;
-    min-width: 700px;
+    max-height: 150px;
 }
 
 .profile img {
-    height: 25px;
+    height: 35px;
+    margin-top: 5px;
 }
+
+.language {
+  float: left;
+  margin-left: -16px;
+}
+
 
 .navbar {
     background-color: #7B9B4A;
@@ -130,7 +136,22 @@
     color: #fff;
 }
 
+.search {
+  width: 175px;
+  height: 32px;
+  padding: 5px;
+  border-radius: 7px 7px 7px 7px;
+  border: none;
+  font-size: 14px;
+  text-align:justify;
+  font-family: Inter;
+}
+
 /* Main Body CSS */
+
+.mainbody {
+    margin-bottom: 870px;
+}
 
 .mainimages {
     float: left;
@@ -140,6 +161,7 @@
     width: 100%;
     margin: 0;
     padding: 0;
+    margin-top: 20px;
 }
 
 .map img{
@@ -219,12 +241,6 @@
   }
 
 
-
-
-
-  * {
-    box-sizing: border-box;
-  }
   body {
     font-size: 14px;
   }
@@ -286,7 +302,6 @@
   .v533_4306 {
     width: 346px;
     height: 328px;
-    background: url("../images/v533_4306.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -312,34 +327,10 @@
     border-top-right-radius: 44px;
     overflow: hidden;
   }
-  .v533_4309 {
-    width: 323px;
-    color: rgba(0,0,0,1);
-    position: absolute;
-    top: 219px;
-    left: 17px;
-    font-family: Inter;
-    font-weight: Light;
-    font-size: 15px;
-    opacity: 1;
-    text-align: left;
-  }
-  .v533_4310 {
-    width: 293px;
-    color: rgba(57,68,6,1);
-    position: absolute;
-    top: 180px;
-    left: 17px;
-    font-family: Inter;
-    font-weight: Semi Bold;
-    font-size: 17px;
-    opacity: 1;
-    text-align: left;
-  }
+
   .v533_4312 {
     width: 488px;
     height: 328px;
-    background: url("../images/v533_4312.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -352,85 +343,24 @@
   .v533_4313 {
     width: 488px;
     height: 328px;
-    background: rgba(255,255,255,1);
+    background: url("../images/stayconnected.png");
     opacity: 1;
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: -1px;
+    left: -1px;
     border: 1px solid rgba(136,136,136,1);
     border-top-left-radius: 45px;
     border-top-right-radius: 45px;
     border-bottom-left-radius: 45px;
     border-bottom-right-radius: 45px;
+
   }
-  .v533_4314 {
-    width: 420px;
-    color: rgba(0,0,0,1);
-    position: absolute;
-    top: 83px;
-    left: 30px;
-    font-family: Inter;
-    font-weight: Medium;
-    font-size: 20px;
-    opacity: 1;
-    text-align: left;
-  }
+
+
   .name {
     color: #fff;
   }
-  .v533_4316 {
-    width: 420px;
-    height: 47px;
-    background: url("../images/v533_4316.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: absolute;
-    top: 169px;
-    left: 30px;
-    overflow: hidden;
-  }
-  .v533_4317 {
-    width: 420px;
-    height: 47px;
-    background: rgba(255,255,255,1);
-    opacity: 1;
-    position: relative;
-    top: 0px;
-    left: 0px;
-    border: 1px solid rgba(123,155,74,1);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    overflow: hidden;
-  }
-  .v533_4318 {
-    width: 171px;
-    color: rgba(0,0,0,0.20000000298023224);
-    position: absolute;
-    top: 6px;
-    left: 22px;
-    font-family: Inter;
-    font-weight: Medium;
-    font-size: 20px;
-    opacity: 1;
-    text-align: left;
 
-  }
-  .v533_4319 {
-    width: 279px;
-    color: rgba(0,0,0,1);
-    position: absolute;
-    top: 30px;
-    left: 30px;
-    font-family: Inter;
-    font-weight: Medium;
-    font-size: 32px;
-    opacity: 1;
-    text-align: left;
-  }
   .v533_4320 {
     width: 534px;
     height: 46px;
@@ -460,5 +390,66 @@
   .name {
     color: #fff;
   }
-  
-  
+  .v533_4321 {
+    width: 420px;
+    height: 47px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border: 1px solid rgba(123,155,74,1);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+  }
+
+.bookyourtrip {
+  margin-bottom: 870px;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  margin-top: 0px;
+}
+
+.map img{
+    height: 750px;
+    width: fit-content;
+}
+
+.bookticket {
+  align-items: center;
+  margin-top: 20px;
+}
+
+.mainimage2 img {
+  height: 615px;
+}
+
+.discovergo {
+  align-items: center;
+  margin-top: 20px;
+}
+
+.mainimage3 img {
+  height: 615px;
+}
+
+.footer {
+  align-items: center;
+  margin-top: 20px;
+  display: flex;
+  justify-content:stretch;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.mainimage4 img {
+  height: 334px;
+}
