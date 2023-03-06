@@ -1,16 +1,28 @@
 /* Navigation Styling */
 /* Style for the navigation bar */
-*{
+*,
+*::after,
+*::before {
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Inter;
 }
+
+body {
+  font-family:"Inter", sans-serif;
+  font-weight: 300;
+  overflow-y: scroll;
+
+}
+
 .nav {
     background-color: #434041;
     display: flex;
     justify-content: space-between;
     height: 140px;
 }
+
 .nav2 {
     display:flex;
     justify-content:end;
@@ -29,7 +41,7 @@
     color: #ffffff;
     padding: 15px;
     display: block;
-}
+  }
 
 .dropdown a{
     color:#fff;
@@ -37,6 +49,7 @@
 .dropdown li a{
     color: #383838;
 }
+
 .dropdown ul {
     display: none;
     position: absolute;
@@ -54,7 +67,6 @@
 .dropdown li {
     margin: 0;
     color:#383838;
-
 }
 
 .dropdown a {
@@ -430,6 +442,9 @@
 
 .mainimage2 img {
   height: 615px;
+  margin-left:-10px;
+  margin-right: 200px;
+  margin-bottom: 80px;
 }
 
 .discovergo {
@@ -438,7 +453,10 @@
 }
 
 .mainimage3 img {
-  height: 615px;
+  height: 600px;
+  align-items: center;
+  margin-left: 70px;
+  margin-bottom: 80px;
 }
 
 .footer {
@@ -451,5 +469,18 @@
 }
 
 .mainimage4 img {
-  height: 334px;
+  display:flex;
+  align-items:flex-start;
+  height: 435px;
+  margin-left: -280px;
 }
+
+.newsandblogs {
+  display: grid;
+  justify-content: center;
+  align-items:center;
+  margin-left: 500px;
+  margin-right: 200px;
+  margin-bottom: 80px;
+}
+
