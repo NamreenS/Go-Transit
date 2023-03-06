@@ -106,8 +106,6 @@ body {
     position: absolute;
     border-radius: 20px 30px 50px 50px;
     width:160px;
-
-
 }
 
 .navimage img {
@@ -216,13 +214,9 @@ body {
     text-align: center;
     padding: 20px;
   }
-  
-  
   #container {
     background-color: #e5ebdb;
   }
-  
-  
   .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -234,8 +228,6 @@ body {
     margin-right: 200px;
     margin-bottom: 80px;
   }
-  
-  
   .grid-item {
     display: flex;
     flex-direction: column;
@@ -247,13 +239,9 @@ body {
     height: 120px;
     margin-bottom: 20px;
   }
-  
-  
   .grid-item img {
     height: 30px;
   }
-  
-  
   .grid-item h3 {
     margin-top: 10px;
     font-size: 1.2rem;
