@@ -146,6 +146,7 @@ body {
     flex-direction: column;
     margin-right: 20px;
     text-align: left;
+    align-items: center;
 }
 
 .navbar-row {
