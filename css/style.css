@@ -99,12 +99,22 @@ body {
 }
 
 .logo img {
-    max-height: 130px;
-    margin-top: 10px;
+    max-height: 120px;
+    margin-top: 15px;
+    margin-left: 20px;
+    background-color: #434041;
+    position: absolute;
+    border-radius: 20px 30px 50px 50px;
+    width:160px;
+
+
 }
 
 .navimage img {
-    max-height: 150px;
+    max-height: 140px;
+    width: 2100px;
+    margin-right: 0px;
+    margin-left: -800px;
 }
 
 .profile img {
