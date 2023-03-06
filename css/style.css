@@ -75,11 +75,19 @@ body {
 
 .dropdown ul li:hover {
     background-color: #B4C889;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
 }
 
 
 .dropdown ul li {
     text-align: left;
+}
+
+.dropdown {
+  position: relative;
 }
 
 /* Navigation Dropdowns */
